@@ -1,10 +1,12 @@
 // ==UserScript==
-// @name         tampermonkey-remote-script-loader
+// @name         hunterhelper-userscript
 // @namespace    http://tampermonkey.net/
 // @version      (See remote script)
-// @description  Use tampermonkey to load scripts from remote sources.
-// @match        INSERT YOUR MATCH STRING HERE
+// @description  Adds some usefull features on twitter site. E.g.: highlighting different followings groups, hide useless stuff and more.
+// @match        https://twitter.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=twitter.com
 // @grant        none
+// @run-at       document-body
 // ==/UserScript==
 
 // Userscript for Tampermonkey (https://www.tampermonkey.net/)
@@ -15,7 +17,7 @@
   // The URL at which the tampermonkey script fetches your desired scripts
   const scriptUrls = [
     "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js", // Remote third party script(s)
-    "https://raw.githubusercontent.com/mast4461/tampermonkey-remote-script-loader/master/public/bundle.js", // Your own script(s)
+    "https://raw.githubusercontent.com/agropav/hunterhelper-userscript/master/public/bundle.js", // Your own script(s)
   ];
 
   // The body of the Tampermonkey script. Fetches scripts from URLs and adds them to the document in script tags.

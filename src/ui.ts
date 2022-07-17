@@ -22,14 +22,14 @@ export function createUi() {
   }
   
   addButton(
-    "Hello",
-    "Say hello.",
-    () => alert("Hello! 👋")
+    "Hello, Hunter",
+    "Say hello, hunter",
+    () => alert("Hello, hunter! 👋")
   );
 
   addButton(
     "❌",
-    "Close this box. Refresh the page to get it back.",
+    "Close this box, hunter. Refresh the page to get it back.",
     () => containerEl.remove()
   );
 };

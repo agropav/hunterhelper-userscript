@@ -21,8 +21,8 @@
           buttonEl.onclick = callback;
           containerEl.appendChild(buttonEl);
       }
-      addButton("Hello", "Say hello.", () => alert("Hello! 👋"));
-      addButton("❌", "Close this box. Refresh the page to get it back.", () => containerEl.remove());
+      addButton("Hello, Hunter", "Say hello, hunter.", () => alert("Hello, hunter! 👋"));
+      addButton("❌", "Close this box, hunter. Refresh the page to get it back.", () => containerEl.remove());
   }
 
   window.addEventListener('load', createUi);

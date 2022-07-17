@@ -1,7 +1,7 @@
 {
-  "name": "tampermonkey-remote-script-loader",
-  "version": "1.0.0",
-  "description": "Use tampermonkey to load scripts from remote sources.",
+  "name": "hunterhelper-userscript",
+  "version": "0.3.1",
+  "description": "Adds some usefull features on twitter site. E.g.: highlighting different followings groups, hide useless stuff and more.",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-json": "^4.0.2",
